@@ -1,0 +1,244 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "line": 31,
+        "name": "Buscar en google",
+        "description": "",
+        "id": "title-of-your-feature;buscar-en-google;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6714711000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Jhobany esta en el sitio google",
+            "match": {
+              "location": "GoogleSearchStepdefinitions.jhobanyEstaEnElSitioGoogle()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1516220500,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "el busca la palabra \"switch\" compuesta \"casa\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"switch\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"casa\"",
+                  "offset": 39
+                }
+              ],
+              "location": "GoogleSearchStepdefinitions.elBuscaLaPalabra(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 227200,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "el verifica que la palabra \"switch\" y \"casa\" este en los resultados",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"switch\"",
+                  "offset": 27
+                },
+                {
+                  "val": "\"casa\"",
+                  "offset": 38
+                }
+              ],
+              "location": "GoogleSearchStepdefinitions.elVerificaQueLaPalabraEsteEnLosResultados(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag2"
+          }
+        ]
+      },
+      {
+        "line": 32,
+        "name": "Buscar en google",
+        "description": "",
+        "id": "title-of-your-feature;buscar-en-google;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4326826800,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Jhobany esta en el sitio google",
+            "match": {
+              "location": "GoogleSearchStepdefinitions.jhobanyEstaEnElSitioGoogle()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1096579900,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "el busca la palabra \"sophos\" compuesta \"carro\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sophos\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"carro\"",
+                  "offset": 39
+                }
+              ],
+              "location": "GoogleSearchStepdefinitions.elBuscaLaPalabra(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 361100,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "el verifica que la palabra \"sophos\" y \"carro\" este en los resultados",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sophos\"",
+                  "offset": 27
+                },
+                {
+                  "val": "\"carro\"",
+                  "offset": 38
+                }
+              ],
+              "location": "GoogleSearchStepdefinitions.elVerificaQueLaPalabraEsteEnLosResultados(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag2"
+          }
+        ]
+      },
+      {
+        "line": 33,
+        "name": "Buscar en google",
+        "description": "",
+        "id": "title-of-your-feature;buscar-en-google;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4535813000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Jhobany esta en el sitio google",
+            "match": {
+              "location": "GoogleSearchStepdefinitions.jhobanyEstaEnElSitioGoogle()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1996298300,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "el busca la palabra \"kkkkkkkkkkkkkkk\" compuesta \"moto\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"kkkkkkkkkkkkkkk\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"moto\"",
+                  "offset": 48
+                }
+              ],
+              "location": "GoogleSearchStepdefinitions.elBuscaLaPalabra(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 384500,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "el verifica que la palabra \"kkkkkkkkkkkkkkk\" y \"moto\" este en los resultados",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"kkkkkkkkkkkkkkk\"",
+                  "offset": 27
+                },
+                {
+                  "val": "\"moto\"",
+                  "offset": 47
+                }
+              ],
+              "location": "GoogleSearchStepdefinitions.elVerificaQueLaPalabraEsteEnLosResultados(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag2"
+          }
+        ]
+      }
+    ],
+    "name": "Title of your feature",
+    "description": "  Hacer una busqueda en google con datos ",
+    "id": "title-of-your-feature",
+    "keyword": "Feature",
+    "uri": "file:resources/feature/GoogleSearchConData.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

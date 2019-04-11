@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Search in google with data from feature" skipped="0" tests="3" time="43.04" timestamp="2019-04-10 05:10:52"><testcase name="buscar en google"><failure message="&#10;Expected: is &quot;touch pad&quot;&#10;     but: was &quot;toch pad&quot;" type="java.lang.AssertionError">
+Expected: is "touch pad"
+     but: was "toch pad"</failure><system-err>
+Expected: is "touch pad"
+     but: was "toch pad"&#13;
+co.com.google.qa.mirpimerscreenplay.stepsdefinitions.BusquedaenGoogleStepsDefinitions.elVerificaQueLaPalabraEsteEnLosResultados(BusquedaenGoogleStepsDefinitions.java:48)&#13;
+✽.el verifica que la palabra "touch pad" este en los resultados(src/test/sources/busquedaengoogle.feature:8)&#13;
+</system-err></testcase></testsuite>

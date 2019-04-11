@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Title of your feature" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-04-02T00:37:55" hostname="SBBOGLAPSEMIL11" time="33.755">
+  <properties/>
+  <testcase name="Buscar en google" classname="Title of your feature" time="15.22"/>
+  <testcase name="Buscar en google" classname="Title of your feature" time="18.53"/>
+  <system-out><![CDATA[
+se ejecuto given
+
+
+
+
+
+
+
+
+se ejecuto when
+
+
+se ejecuto el THEN
+
+
+
+se ejecuto given
+
+
+
+
+
+
+
+
+se ejecuto when
+
+
+se ejecuto el THEN
+
+
+]]></system-out>
+  <system-err><![CDATA[Started InternetExplorerDriver server (32-bit)
+3.14.0.0
+Listening on port 10526
+Only local connections are allowed
+abr 01, 2019 7:38:00 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+abr 01, 2019 7:38:11 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+]]></system-err>
+</testsuite>
