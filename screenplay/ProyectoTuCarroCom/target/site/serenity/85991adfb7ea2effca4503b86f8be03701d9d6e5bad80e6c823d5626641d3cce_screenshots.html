@@ -1,0 +1,334 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" href="fontawesome-free-5.3.1-web/css/all.css">
+<link rel="stylesheet" href="fontawesome-free-5.3.1-web/css/v4-shims.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.css">
+<link rel="stylesheet" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname"></span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="2accd3fd9cce94c47f4ee0cdc8df3269e6e79abd266c226be5030b60814b1b7d.html">Realizar Busqueda En Tucarro</a></span>
+                > <span class="truncate-60"><a
+                    href="85991adfb7ea2effca4503b86f8be03701d9d6e5bad80e6c823d5626641d3cce.html">Buscar en TuCarro </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 12-04-2019 09:58</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Realizar Busqueda En Tucarro</span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                Realizar la busqueda de un vehiculo especifico en TuCarro.com
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="095fb70a5155b4b01be72b93f1b4c51cab27094796115f0e543dc2649da60779.html">Smoketest
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-times-circle failure-icon fa-2x' title='FAILURE'></i></span>
+                            <span class="test-case-title">
+                                <span class="failing-color">Buscar en TuCarro
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3>Scenario:</h3>
+        <div class="scenario">Given andres esta en la pagina web TuCarro.com<br>When el busca el modelo de auto "&lt;palabra&gt;"<br>Then el verifica que el modelo "&lt;palabra&gt;" este en los resultados</div>
+    </div>
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">Assertion error: La marca del vehiculo no corresponde a la buscada - Expected: is 'Nissan tida' but: was 'Nissan Tiida'</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-overall">
+            <div class="card">
+                <div class="card-header">
+                    <h4>java.lang.AssertionError </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>co.com.tucarro.qa.stepdefinitions.TuCarroStepDefinitions.el_verifica_que_el_modelo_este_en_los_resultados(TuCarroStepDefinitions.java:52)<br />✽.el verifica que el modelo "Nissan tida" este en los resultados(src/test/resources/feature/tucarrocom.feature:8)<br /></pre>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+                <div class="panel-body">
+                    <a href="pagesource7415834868569135927.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="c90b174bad0a054398ea8b49f0c77f93598b2851f0fca8dcbcddd70bea76803b.png" title=" Example #1: {palabra=Kia Picanto}" width="1366"/>
+                <img src="c90b174bad0a054398ea8b49f0c77f93598b2851f0fca8dcbcddd70bea76803b.png" title=" Given andres esta en la pagina web TuCarro.com" width="1366"/>
+                <img src="c90b174bad0a054398ea8b49f0c77f93598b2851f0fca8dcbcddd70bea76803b.png" title=" andres opens the Pagina principal tucarro" width="1366"/>
+                <img src="c90b174bad0a054398ea8b49f0c77f93598b2851f0fca8dcbcddd70bea76803b.png" title=" Given andres esta en la pagina web TuCarro.com (completed)" width="1366"/>
+                <img src="c90b174bad0a054398ea8b49f0c77f93598b2851f0fca8dcbcddd70bea76803b.png" title=" When el busca el modelo de auto &quot;Kia Picanto&quot;" width="1366"/>
+                <img src="c90b174bad0a054398ea8b49f0c77f93598b2851f0fca8dcbcddd70bea76803b.png" title=" Andres buscar vehiculo" width="1366"/>
+                <img src="c90b174bad0a054398ea8b49f0c77f93598b2851f0fca8dcbcddd70bea76803b.png" title=" Andres dar click" width="1366"/>
+                <img src="c90b174bad0a054398ea8b49f0c77f93598b2851f0fca8dcbcddd70bea76803b.png" title=" Andres resaltar elementos" width="1366"/>
+                <img src="c4641e02db732e4a08ba77fec5d1ad3271d2e8558462a7bde2406a521bea8553.png" title=" Andres resaltar elementos (completed)" width="1366"/>
+                <img src="c4641e02db732e4a08ba77fec5d1ad3271d2e8558462a7bde2406a521bea8553.png" title=" andres clicks on Boton para buscar" width="1366"/>
+                <img src="ba5dbc698e0f1ddcdf72db8b4f745e6f09bf019113af81497e32e255b3de8a87.png" title=" andres clicks on Boton para buscar (completed)" width="1366"/>
+                <img src="ba5dbc698e0f1ddcdf72db8b4f745e6f09bf019113af81497e32e255b3de8a87.png" title=" Andres dar click (completed)" width="1366"/>
+                <img src="ba5dbc698e0f1ddcdf72db8b4f745e6f09bf019113af81497e32e255b3de8a87.png" title=" Andres resaltar elementos" width="1366"/>
+                <img src="669b24d6c4303d114b7455b8580fca8e53f7449f4726f909f0650e9ef10289af.png" title=" Andres resaltar elementos (completed)" width="1366"/>
+                <img src="669b24d6c4303d114b7455b8580fca8e53f7449f4726f909f0650e9ef10289af.png" title=" andres enters 'Kia Picanto' into Barra para digitar" width="1366"/>
+                <img src="2e4a6eb00f33503ef8dfc93512d71d224449888339fed70bbb0f2447058c9d6f.png" title=" andres enters 'Kia Picanto' into Barra para digitar (completed)" width="1366"/>
+                <img src="2e4a6eb00f33503ef8dfc93512d71d224449888339fed70bbb0f2447058c9d6f.png" title=" Andres seleccionar vehiculo" width="1366"/>
+                <img src="2e4a6eb00f33503ef8dfc93512d71d224449888339fed70bbb0f2447058c9d6f.png" title=" Andres resaltar elementos" width="1366"/>
+                <img src="9ed27e84a0fb076a6d0746b4d30c088b1b5a20c6c0fedbbc6fff2fd1a39741e0.png" title=" Andres resaltar elementos (completed)" width="1366"/>
+                <img src="9ed27e84a0fb076a6d0746b4d30c088b1b5a20c6c0fedbbc6fff2fd1a39741e0.png" title=" andres clicks on Seleccionar vehiculo" width="1366"/>
+                <img src="b24822a398aaa4ba7640d2a5f5c87417a6f7e1ee34cfbb182a83e3a2186c77c6.png" title=" andres clicks on Seleccionar vehiculo (completed)" width="1366"/>
+                <img src="b24822a398aaa4ba7640d2a5f5c87417a6f7e1ee34cfbb182a83e3a2186c77c6.png" title=" Andres resaltar elementos" width="1366"/>
+                <img src="51356ad51cc89f81b75f603767b3ecf4af139fa79234b22274cfe0394fdc7c83.png" title=" Andres resaltar elementos (completed)" width="1366"/>
+                <img src="51356ad51cc89f81b75f603767b3ecf4af139fa79234b22274cfe0394fdc7c83.png" title=" Andres seleccionar vehiculo (completed)" width="1366"/>
+                <img src="51356ad51cc89f81b75f603767b3ecf4af139fa79234b22274cfe0394fdc7c83.png" title=" Andres buscar vehiculo (completed)" width="1366"/>
+                <img src="51356ad51cc89f81b75f603767b3ecf4af139fa79234b22274cfe0394fdc7c83.png" title=" When el busca el modelo de auto &quot;Kia Picanto&quot; (completed)" width="1366"/>
+                <img src="51356ad51cc89f81b75f603767b3ecf4af139fa79234b22274cfe0394fdc7c83.png" title=" Then el verifica que el modelo &quot;Kia Picanto&quot; este en los resultados" width="1366"/>
+                <img src="51356ad51cc89f81b75f603767b3ecf4af139fa79234b22274cfe0394fdc7c83.png" title=" Then verificar modelo veehiculo should be 'Kia Picanto'" width="1366"/>
+                <img src="51356ad51cc89f81b75f603767b3ecf4af139fa79234b22274cfe0394fdc7c83.png" title=" Then verificar modelo veehiculo should be 'Kia Picanto' (completed)" width="1366"/>
+                <img src="51356ad51cc89f81b75f603767b3ecf4af139fa79234b22274cfe0394fdc7c83.png" title=" Then el verifica que el modelo &quot;Kia Picanto&quot; este en los resultados (completed)" width="1366"/>
+                <img src="51356ad51cc89f81b75f603767b3ecf4af139fa79234b22274cfe0394fdc7c83.png" title=" Example #1: {palabra=Kia Picanto} (completed)" width="1366"/>
+                <img src="c90b174bad0a054398ea8b49f0c77f93598b2851f0fca8dcbcddd70bea76803b.png" title=" Example #2: {palabra=Nissan tida}" width="1366"/>
+                <img src="c90b174bad0a054398ea8b49f0c77f93598b2851f0fca8dcbcddd70bea76803b.png" title=" Given andres esta en la pagina web TuCarro.com" width="1366"/>
+                <img src="c90b174bad0a054398ea8b49f0c77f93598b2851f0fca8dcbcddd70bea76803b.png" title=" andres opens the Pagina principal tucarro" width="1366"/>
+                <img src="c90b174bad0a054398ea8b49f0c77f93598b2851f0fca8dcbcddd70bea76803b.png" title=" Given andres esta en la pagina web TuCarro.com (completed)" width="1366"/>
+                <img src="c90b174bad0a054398ea8b49f0c77f93598b2851f0fca8dcbcddd70bea76803b.png" title=" When el busca el modelo de auto &quot;Nissan tida&quot;" width="1366"/>
+                <img src="c90b174bad0a054398ea8b49f0c77f93598b2851f0fca8dcbcddd70bea76803b.png" title=" Andres buscar vehiculo" width="1366"/>
+                <img src="c90b174bad0a054398ea8b49f0c77f93598b2851f0fca8dcbcddd70bea76803b.png" title=" Andres dar click" width="1366"/>
+                <img src="c90b174bad0a054398ea8b49f0c77f93598b2851f0fca8dcbcddd70bea76803b.png" title=" Andres resaltar elementos" width="1366"/>
+                <img src="c4641e02db732e4a08ba77fec5d1ad3271d2e8558462a7bde2406a521bea8553.png" title=" Andres resaltar elementos (completed)" width="1366"/>
+                <img src="c4641e02db732e4a08ba77fec5d1ad3271d2e8558462a7bde2406a521bea8553.png" title=" andres clicks on Boton para buscar" width="1366"/>
+                <img src="6e5f39ecbeac2594cc4713f8b18d4376d428e1520a0cdf0d0f25f14aafa587d5.png" title=" andres clicks on Boton para buscar (completed)" width="1366"/>
+                <img src="6e5f39ecbeac2594cc4713f8b18d4376d428e1520a0cdf0d0f25f14aafa587d5.png" title=" Andres dar click (completed)" width="1366"/>
+                <img src="6e5f39ecbeac2594cc4713f8b18d4376d428e1520a0cdf0d0f25f14aafa587d5.png" title=" Andres resaltar elementos" width="1366"/>
+                <img src="6e5f39ecbeac2594cc4713f8b18d4376d428e1520a0cdf0d0f25f14aafa587d5.png" title=" Andres resaltar elementos (completed)" width="1366"/>
+                <img src="6e5f39ecbeac2594cc4713f8b18d4376d428e1520a0cdf0d0f25f14aafa587d5.png" title=" andres enters 'Nissan tida' into Barra para digitar" width="1366"/>
+                <img src="a7372ae7f9d09a97e07ee5befb28d09500b72c2994cffb203ca72c4c8c20b359.png" title=" andres enters 'Nissan tida' into Barra para digitar (completed)" width="1366"/>
+                <img src="a7372ae7f9d09a97e07ee5befb28d09500b72c2994cffb203ca72c4c8c20b359.png" title=" Andres seleccionar vehiculo" width="1366"/>
+                <img src="a7372ae7f9d09a97e07ee5befb28d09500b72c2994cffb203ca72c4c8c20b359.png" title=" Andres resaltar elementos" width="1366"/>
+                <img src="c91ee3c1bf6ee4e68f11a7da7d7a74187e637f6ac34245adc958b35b27d3001b.png" title=" Andres resaltar elementos (completed)" width="1366"/>
+                <img src="c91ee3c1bf6ee4e68f11a7da7d7a74187e637f6ac34245adc958b35b27d3001b.png" title=" andres clicks on Seleccionar vehiculo" width="1366"/>
+                <img src="4fe9558248a1ed09681565165bec4ae57e510f15c151c66c4b1d27698daa32d3.png" title=" andres clicks on Seleccionar vehiculo (completed)" width="1366"/>
+                <img src="4fe9558248a1ed09681565165bec4ae57e510f15c151c66c4b1d27698daa32d3.png" title=" Andres resaltar elementos" width="1366"/>
+                <img src="4fe9558248a1ed09681565165bec4ae57e510f15c151c66c4b1d27698daa32d3.png" title=" Andres resaltar elementos (completed)" width="1366"/>
+                <img src="65d090d8e828a72fdb266e85af06ad1409d4ffd83a00bf5fd713f7cc09b216e4.png" title=" Andres seleccionar vehiculo (completed)" width="1366"/>
+                <img src="65d090d8e828a72fdb266e85af06ad1409d4ffd83a00bf5fd713f7cc09b216e4.png" title=" Andres buscar vehiculo (completed)" width="1366"/>
+                <img src="65d090d8e828a72fdb266e85af06ad1409d4ffd83a00bf5fd713f7cc09b216e4.png" title=" When el busca el modelo de auto &quot;Nissan tida&quot; (completed)" width="1366"/>
+                <img src="65d090d8e828a72fdb266e85af06ad1409d4ffd83a00bf5fd713f7cc09b216e4.png" title=" Then el verifica que el modelo &quot;Nissan tida&quot; este en los resultados" width="1366"/>
+                <img src="65d090d8e828a72fdb266e85af06ad1409d4ffd83a00bf5fd713f7cc09b216e4.png" title=" Then verificar modelo veehiculo should be 'Nissan tida'" width="1366"/>
+                <img src="65d090d8e828a72fdb266e85af06ad1409d4ffd83a00bf5fd713f7cc09b216e4.png" title=" Then verificar modelo veehiculo should be 'Nissan tida' (completed)" width="1366"/>
+                <img src="c90b174bad0a054398ea8b49f0c77f93598b2851f0fca8dcbcddd70bea76803b.png" title=" Example #3: {palabra=Chevrolet camaro}" width="1366"/>
+                <img src="c90b174bad0a054398ea8b49f0c77f93598b2851f0fca8dcbcddd70bea76803b.png" title=" Given andres esta en la pagina web TuCarro.com" width="1366"/>
+                <img src="c90b174bad0a054398ea8b49f0c77f93598b2851f0fca8dcbcddd70bea76803b.png" title=" andres opens the Pagina principal tucarro" width="1366"/>
+                <img src="c90b174bad0a054398ea8b49f0c77f93598b2851f0fca8dcbcddd70bea76803b.png" title=" Given andres esta en la pagina web TuCarro.com (completed)" width="1366"/>
+                <img src="c90b174bad0a054398ea8b49f0c77f93598b2851f0fca8dcbcddd70bea76803b.png" title=" When el busca el modelo de auto &quot;Chevrolet camaro&quot;" width="1366"/>
+                <img src="c90b174bad0a054398ea8b49f0c77f93598b2851f0fca8dcbcddd70bea76803b.png" title=" Andres buscar vehiculo" width="1366"/>
+                <img src="c90b174bad0a054398ea8b49f0c77f93598b2851f0fca8dcbcddd70bea76803b.png" title=" Andres dar click" width="1366"/>
+                <img src="c90b174bad0a054398ea8b49f0c77f93598b2851f0fca8dcbcddd70bea76803b.png" title=" Andres resaltar elementos" width="1366"/>
+                <img src="c4641e02db732e4a08ba77fec5d1ad3271d2e8558462a7bde2406a521bea8553.png" title=" Andres resaltar elementos (completed)" width="1366"/>
+                <img src="c4641e02db732e4a08ba77fec5d1ad3271d2e8558462a7bde2406a521bea8553.png" title=" andres clicks on Boton para buscar" width="1366"/>
+                <img src="eb796af5f5d2dc158cb16541167cd590ce52fea3a5e7fac712766a9686c6946c.png" title=" andres clicks on Boton para buscar (completed)" width="1366"/>
+                <img src="eb796af5f5d2dc158cb16541167cd590ce52fea3a5e7fac712766a9686c6946c.png" title=" Andres dar click (completed)" width="1366"/>
+                <img src="eb796af5f5d2dc158cb16541167cd590ce52fea3a5e7fac712766a9686c6946c.png" title=" Andres resaltar elementos" width="1366"/>
+                <img src="eb796af5f5d2dc158cb16541167cd590ce52fea3a5e7fac712766a9686c6946c.png" title=" Andres resaltar elementos (completed)" width="1366"/>
+                <img src="a268be7d189688fbe557771fe6af5826b019df2580adc3767fda7b200891aba8.png" title=" andres enters 'Chevrolet camaro' into Barra para digitar" width="1366"/>
+                <img src="0e34c4ff948b38cdf161f3c6a307f04dbb1e29200fec8626a7478c68a31c6ccd.png" title=" andres enters 'Chevrolet camaro' into Barra para digitar (completed)" width="1366"/>
+                <img src="0e34c4ff948b38cdf161f3c6a307f04dbb1e29200fec8626a7478c68a31c6ccd.png" title=" Andres seleccionar vehiculo" width="1366"/>
+                <img src="0e34c4ff948b38cdf161f3c6a307f04dbb1e29200fec8626a7478c68a31c6ccd.png" title=" Andres resaltar elementos" width="1366"/>
+                <img src="0e34c4ff948b38cdf161f3c6a307f04dbb1e29200fec8626a7478c68a31c6ccd.png" title=" Andres resaltar elementos (completed)" width="1366"/>
+                <img src="5baaa052df57cadeda6b5453632789b62b74ce6c5d770206e6f66d81474a4863.png" title=" andres clicks on Seleccionar vehiculo" width="1366"/>
+                <img src="f87e07048abb374a58554e980c59d9f546a32b4eeed64b1ea01d3eab04591abe.png" title=" andres clicks on Seleccionar vehiculo (completed)" width="1366"/>
+                <img src="f87e07048abb374a58554e980c59d9f546a32b4eeed64b1ea01d3eab04591abe.png" title=" Andres resaltar elementos" width="1366"/>
+                <img src="ba2ff70e4e0278cd9790c9ac179e95dadb1867f1837cb00a36f85d96d5227381.png" title=" Andres resaltar elementos (completed)" width="1366"/>
+                <img src="ba2ff70e4e0278cd9790c9ac179e95dadb1867f1837cb00a36f85d96d5227381.png" title=" Andres seleccionar vehiculo (completed)" width="1366"/>
+                <img src="ba2ff70e4e0278cd9790c9ac179e95dadb1867f1837cb00a36f85d96d5227381.png" title=" Andres buscar vehiculo (completed)" width="1366"/>
+                <img src="ba2ff70e4e0278cd9790c9ac179e95dadb1867f1837cb00a36f85d96d5227381.png" title=" When el busca el modelo de auto &quot;Chevrolet camaro&quot; (completed)" width="1366"/>
+                <img src="ba2ff70e4e0278cd9790c9ac179e95dadb1867f1837cb00a36f85d96d5227381.png" title=" Then el verifica que el modelo &quot;Chevrolet camaro&quot; este en los resultados" width="1366"/>
+                <img src="ba2ff70e4e0278cd9790c9ac179e95dadb1867f1837cb00a36f85d96d5227381.png" title=" Then verificar modelo veehiculo should be 'Chevrolet camaro'" width="1366"/>
+                <img src="ba2ff70e4e0278cd9790c9ac179e95dadb1867f1837cb00a36f85d96d5227381.png" title=" Then verificar modelo veehiculo should be 'Chevrolet camaro' (completed): <span class='failing-color'>FAILURE</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.41</span>
+</div>
+</body>
+</html>

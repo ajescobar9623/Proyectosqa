@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="co.com.tucarro.qa.runner.TuCarroRunner" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="SBBOGLAPSEMIL11" time="0.0">
+  <properties/>
+  <system-out><![CDATA[
+?[31mFailed scenarios:?[0m
+?[31msrc/test/resources/feature/tucarrocom.feature:13 ?[0m# Buscar en TuCarro
+?[31msrc/test/resources/feature/tucarrocom.feature:14 ?[0m# Buscar en TuCarro
+
+3 Scenarios (?[31m2 failed?[0m, ?[32m1 passed?[0m)
+9 Steps (?[31m2 failed?[0m, ?[32m7 passed?[0m)
+1m23,053s
+
+java.lang.AssertionError: La marca del vehiculo no corresponde a la buscada - 
+Expected: is "Nissan tida"
+     but: was "Nissan Tiida"
+	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)
+	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)
+	at net.serenitybdd.screenplay.Actor.should(Actor.java:187)
+	at co.com.tucarro.qa.stepdefinitions.TuCarroStepDefinitions.el_verifica_que_el_modelo_este_en_los_resultados(TuCarroStepDefinitions.java:52)
+	at ?.el verifica que el modelo "Nissan tida" este en los resultados(src/test/resources/feature/tucarrocom.feature:8)
+
+java.lang.AssertionError: La marca del vehiculo no corresponde a la buscada - 
+Expected: is "Chevrolet camaro"
+     but: was "Chevrolet Camaro"
+	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)
+	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)
+	at net.serenitybdd.screenplay.Actor.should(Actor.java:187)
+	at co.com.tucarro.qa.stepdefinitions.TuCarroStepDefinitions.el_verifica_que_el_modelo_este_en_los_resultados(TuCarroStepDefinitions.java:52)
+	at ?.el verifica que el modelo "Chevrolet camaro" este en los resultados(src/test/resources/feature/tucarrocom.feature:8)
+
+]]></system-out>
+  <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+</testsuite>

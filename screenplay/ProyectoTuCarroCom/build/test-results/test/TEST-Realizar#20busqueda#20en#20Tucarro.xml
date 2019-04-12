@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Realizar busqueda en Tucarro" tests="3" skipped="0" failures="2" errors="0" timestamp="2019-04-12T14:58:08" hostname="SBBOGLAPSEMIL11" time="82.635">
+  <properties/>
+  <testcase name="Buscar en TuCarro" classname="Realizar busqueda en Tucarro" time="27.575"/>
+  <testcase name="Buscar en TuCarro" classname="Realizar busqueda en Tucarro" time="21.593">
+    <failure message="java.lang.AssertionError: La marca del vehiculo no corresponde a la buscada - &#10;Expected: is &quot;Nissan tida&quot;&#10;     but: was &quot;Nissan Tiida&quot;" type="java.lang.AssertionError">java.lang.AssertionError: La marca del vehiculo no corresponde a la buscada - 
+Expected: is &quot;Nissan tida&quot;
+     but: was &quot;Nissan Tiida&quot;
+	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)
+	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)
+	at net.serenitybdd.screenplay.Actor.should(Actor.java:187)
+	at co.com.tucarro.qa.stepdefinitions.TuCarroStepDefinitions.el_verifica_que_el_modelo_este_en_los_resultados(TuCarroStepDefinitions.java:52)
+	at ✽.el verifica que el modelo &quot;Nissan tida&quot; este en los resultados(src/test/resources/feature/tucarrocom.feature:8)
+</failure>
+  </testcase>
+  <testcase name="Buscar en TuCarro" classname="Realizar busqueda en Tucarro" time="33.458">
+    <failure message="java.lang.AssertionError: La marca del vehiculo no corresponde a la buscada - &#10;Expected: is &quot;Chevrolet camaro&quot;&#10;     but: was &quot;Chevrolet Camaro&quot;" type="java.lang.AssertionError">java.lang.AssertionError: La marca del vehiculo no corresponde a la buscada - 
+Expected: is &quot;Chevrolet camaro&quot;
+     but: was &quot;Chevrolet Camaro&quot;
+	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)
+	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)
+	at net.serenitybdd.screenplay.Actor.should(Actor.java:187)
+	at co.com.tucarro.qa.stepdefinitions.TuCarroStepDefinitions.el_verifica_que_el_modelo_este_en_los_resultados(TuCarroStepDefinitions.java:52)
+	at ✽.el verifica que el modelo &quot;Chevrolet camaro&quot; este en los resultados(src/test/resources/feature/tucarrocom.feature:8)
+</failure>
+  </testcase>
+  <system-out><![CDATA[Conectado a internet
+
+
+
+
+
+
+
+
+
+5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Kia Picanto
+
+
+
+Conectado a internet
+
+
+
+
+
+
+
+
+
+5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Nissan Tiida
+
+Conectado a internet
+
+
+
+
+
+
+
+
+
+5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Chevrolet Camaro
+
+]]></system-out>
+  <system-err><![CDATA[abr 12, 2019 9:58:09 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72) on port 29852
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+abr 12, 2019 9:58:12 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: OSS
+abr 12, 2019 9:58:36 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+abr 12, 2019 9:58:38 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: OSS
+abr 12, 2019 9:58:57 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+abr 12, 2019 9:59:00 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: OSS
+]]></system-err>
+</testsuite>

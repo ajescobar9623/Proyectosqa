@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="3" name="Realizar busqueda en Tucarro" skipped="0" tests="3" time="2.2" timestamp="2019-04-12 12:44:58"><testcase name="Buscar en TuCarro"><failure message="No cuenta con conexion a internet - &#10;Expected: is &lt;true&gt;&#10;     but: was &lt;false&gt;" type="java.lang.AssertionError">No cuenta con conexion a internet - 
+Expected: is &lt;true&gt;
+     but: was &lt;false&gt;</failure><system-err>No cuenta con conexion a internet - 
+Expected: is &lt;true&gt;
+     but: was &lt;false&gt;&#13;
+co.com.tucarro.qa.stepdefinitions.TuCarroStepDefinitions.actorCanBrowseTheWeb(TuCarroStepDefinitions.java:32)&#13;
+cucumber.runner.UnskipableStep.executeStep(UnskipableStep.java:22)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)&#13;
+org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:763)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:463)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:209)&#13;
+</system-err></testcase></testsuite>
